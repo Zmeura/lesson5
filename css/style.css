@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+@import url("./_vars.css");
+
+html,
+body {
+  margin: 0;
+  font-size: var(--main-font-size);
+  font-family: "Open Sans";
+  box-sizing: border-box;
+  color: var(--main-color-text);
+}
+
+.title_2 {
+  font-size: 1.89rem;
+  font-weight: 700;
+  color: var(--main-color-text);
+  margin-top: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 970px;
+  margin: auto;
+}
+
+.menu::after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background: var(--main-color-text);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.menu {
+  padding: 28px 0;
+  list-style: none;
+  text-align: center;
+  font-size: 0;
+  position: relative;
+}
+
+.menu__item {
+  display: inline-block;
+  margin: 0 20px;
+  font-size: 1rem;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: var(--main-color-menu);
+  transition: all 0.2s linear;
+}
+
+.menu__item:hover .menu__link {
+  color: var(--main-color-text);
+}
+
+.banner__title {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 20px 0 40px 0;
+  font-style: normal;
+  line-height: 65px;
+}
+
+.banner__picture img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.about {
+  background: var(--background-additional);
+  padding: 100px 0;
+  text-align: center;
+}
+
+.banner__picture {
+  font-size: 0;
+}
+
+.about__text {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.about__text p {
+  margin: 0 0 30px;
+}
+
+.about__text p:last-child {
+  margin-bottom: 0;
+}
+
+.skills {
+  text-align: center;
+  padding: 100px 0;
+  max-width: 970px;
+  width: 100%;
+  margin: 0 auto;
+}
+.sub-title {
+  font-size: inherit;
+  font-weight: 400;
+  line-height: 25px;
+  text-decoration: underline;
+}
+
+.skills__list {
+  padding-left: 0;
+  list-style: none;
+  font-size: 0;
+}
+
+.skills__item {
+  display: inline-block;
+  width: 15%;
+  vertical-align: text-top;
+  margin-right: 13%;
+}
+
+.skills__item:last-child {
+  margin-right: 0;
+}
+
+.skills__title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #828282;
+  width: 90px;
+  margin: 25px auto 60px;
+}
+
+.skills__sub-title {
+  margin: -8px 0 50px;
+  font-size: inherit;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.stars img {
+  width: 26px;
+  margin-left: 2%;
+}
+
+.figma {
+  margin-bottom: 79px;
+}
+
+.portfolio {
+  background: var(--background-additional);
+  padding: 100px 0;
+  text-align: center;
+}
+
+.fashion-store-img {
+  margin: 22px 0 40px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.fashion-store__sub-title {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.portfolio-link,
+.footer-sub-title a {
+  color: var(--main-color-text);
+}
+
+.reebok-braun-img {
+  margin: 70px 0 40px;
+  object-fit: contain;
+  width: 100%;
+}
+
+footer {
+  margin: 100px 0;
+  text-align: center;
+}
+
+button {
+  align-items: center;
+  padding: 0px 16px;
+  width: 180px;
+  height: 44px;
+  background: var(--main-color-text);
+  border-radius: 22px;
+  color: #ffffff;
+  font-size: inherit;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  border: none;
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  background: var(--main-color-menu);
+}
+
+.footer-list {
+  margin: 30px 0 60px 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer-list-item {
+  display: inline;
+  margin-right: 50px;
+  width: 40%;
+}
+
+.footer-list-item:last-child {
+  margin-right: 0;
+}
+
+.footer-sub-title {
+  width: 280px;
+  margin: -8px auto 60px;
+}
+
+.footer-like-recomendation {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--main-color-menu);
+  width: 200px;
+  margin: 0 auto;
+}
